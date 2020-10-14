@@ -5,14 +5,14 @@ There are mainly two perspectives on the web console: Administrator and Develope
 In this tutorial, we will be focusing on learning various capabilities and commands to administer OpenShift cluster. If you take a look at the following image, you can notice multiple tabs in the menu to the left. In this tutorial we will be focusing on the functionality of some of these features.
 ![admin](https://user-images.githubusercontent.com/36239840/95733956-eb292480-0c93-11eb-85ef-0c1f1bbb83fa.JPG)
 
-The Administrator perspective in the OpenShift cluster is responsible for managing the cluster resources, users, and projects. In this navigation menu, you see the following tabs:
+The Administrator perspective in the OpenShift cluster is responsible for managing the cluster resources, users, and projects. In this navigation menu, some of the following features are:
 
 - Home: See an overview dashboard of the cluster that summarizes the cluster status, alerts, breakdown of the cluster capacity by CPU, memory storage, and network utilization, some details about cluster and cluster inventory, and top consumers by category.
-
 - Operators: Explore operators and install them for your cluster and projects from the OperatorHub and navigate through installed Operators.
 - Builds: Manage build configurations, builds, and image streams.
 - Pipelines: View your pipelines, tasks, and resources related to the cluster and projects, where you can view their status and access them for more details.
 
+In this tutorial, we will focus on the rest of features & capabilities of the Administrator.
 ## Prerequisites
 - Create your free IBM Cloud account at: https://ibm.biz/BdqQSg 
 - OpenShift 4 Cluster on IBM Cloud:
