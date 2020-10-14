@@ -20,7 +20,11 @@ The Administrator perspective in the OpenShift cluster is responsible for managi
 - User Management: View a list of users, create users and groups, and manage roles in the cluster and projects.
 - Administration: View settings related to cluster administration, like details about the cluster, namespaces, cluster updates, quotas, and Custom Resource Definitions (CRDs).
 
-
+## Prerequisites
+- Create your free IBM Cloud account at: https://ibm.biz/BdqQSg 
+- OpenShift 4 Cluster on IBM Cloud:
+  URL: <will be provided soon>
+  key: <will be provided soon>
 ## Workloads
 ## Networking
 ## Storage
