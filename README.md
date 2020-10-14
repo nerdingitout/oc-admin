@@ -23,8 +23,8 @@ The Administrator perspective in the OpenShift cluster is responsible for managi
 ## Prerequisites
 - Create your free IBM Cloud account at: https://ibm.biz/BdqQSg 
 - OpenShift 4 Cluster on IBM Cloud:
-  URL: <will be provided soon>
-  key: <will be provided soon>
+  - URL: <will be provided soon>
+  - key: <will be provided soon>
 ## Workloads
 ## Networking
 ## Storage
