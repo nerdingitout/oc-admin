@@ -10,15 +10,8 @@ The Administrator perspective in the OpenShift cluster is responsible for managi
 - Home: See an overview dashboard of the cluster that summarizes the cluster status, alerts, breakdown of the cluster capacity by CPU, memory storage, and network utilization, some details about cluster and cluster inventory, and top consumers by category.
 
 - Operators: Explore operators and install them for your cluster and projects from the OperatorHub and navigate through installed Operators.
-- Workloads, Networking, and Storage: View and manage resources like deployment, secrets, and the pods in your project.
-- Networking: View and manage the services and routes of your applications.
-- Storage: View and manage the persistent volumes in your project.
 - Builds: Manage build configurations, builds, and image streams.
 - Pipelines: View your pipelines, tasks, and resources related to the cluster and projects, where you can view their status and access them for more details.
-- Monitoring: View alerts and perform ad hoc Prometheus queries.
-- Compute: View and manage compute resources like nodes, machines, and autoscalers.
-- User Management: View a list of users, create users and groups, and manage roles in the cluster and projects.
-- Administration: View settings related to cluster administration, like details about the cluster, namespaces, cluster updates, quotas, and Custom Resource Definitions (CRDs).
 
 ## Prerequisites
 - Create your free IBM Cloud account at: https://ibm.biz/BdqQSg 
@@ -26,9 +19,23 @@ The Administrator perspective in the OpenShift cluster is responsible for managi
   - URL: <will be provided soon>
   - key: <will be provided soon>
 ## Workloads
+- Workloads, Networking, and Storage: View and manage resources like deployment, secrets, and the pods in your project.
+
 ## Networking
+- Networking: View and manage the services and routes of your applications.
+
 ## Storage
+- Storage: View and manage the persistent volumes in your project.
+
 ## Monitoring
-## Computer
+- Monitoring: View alerts and perform ad hoc Prometheus queries.
+
+## Compute
+- Compute: View and manage compute resources like nodes, machines, and autoscalers.
+
 ## User management
+- User Management: View a list of users, create users and groups, and manage roles in the cluster and projects.
+
 ## Administration
+- Administration: View settings related to cluster administration, like details about the cluster, namespaces, cluster updates, quotas, and Custom Resource Definitions (CRDs).
+
