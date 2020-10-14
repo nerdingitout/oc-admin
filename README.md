@@ -5,6 +5,22 @@ There are mainly two perspectives on the web console: Administrator and Develope
 In this tutorial, we will be focusing on learning various capabilities and commands to administer OpenShift cluster. If you take a look at the following image, you can notice multiple tabs in the menu to the left. In this tutorial we will be focusing on the functionality of some of these features.
 ![admin](https://user-images.githubusercontent.com/36239840/95733956-eb292480-0c93-11eb-85ef-0c1f1bbb83fa.JPG)
 
+The Administrator perspective in the OpenShift cluster is responsible for managing the cluster resources, users, and projects. In this navigation menu, you see the following tabs:
+
+- Home: See an overview dashboard of the cluster that summarizes the cluster status, alerts, breakdown of the cluster capacity by CPU, memory storage, and network utilization, some details about cluster and cluster inventory, and top consumers by category.
+
+- Operators: Explore operators and install them for your cluster and projects from the OperatorHub and navigate through installed Operators.
+- Workloads, Networking, and Storage: View and manage resources like deployment, secrets, and the pods in your project.
+- Networking: View and manage the services and routes of your applications.
+- Storage: View and manage the persistent volumes in your project.
+- Builds: Manage build configurations, builds, and image streams.
+- Pipelines: View your pipelines, tasks, and resources related to the cluster and projects, where you can view their status and access them for more details.
+- Monitoring: View alerts and perform ad hoc Prometheus queries.
+- Compute: View and manage compute resources like nodes, machines, and autoscalers.
+- User Management: View a list of users, create users and groups, and manage roles in the cluster and projects.
+- Administration: View settings related to cluster administration, like details about the cluster, namespaces, cluster updates, quotas, and Custom Resource Definitions (CRDs).
+
+
 ## Workloads
 ## Networking
 ## Storage
