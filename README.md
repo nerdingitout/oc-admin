@@ -19,8 +19,8 @@ In this tutorial, we will focus on the rest of features & capabilities of the Ad
   - URL: <will be provided soon>
   - key: <will be provided soon>
 ## Step 1: Create Project
-First thing, we will need to create a new project because we will be perfoming some administration tasks on a project level as well.<br>
-  1- Go to <b>Home</b> -> <b>Projects</b> and click on <b>Create Project</b> button.<br>
+First thing, we will need to create a new project because we will be perfoming some administration tasks on a project level as well.<br><br>
+1- Go to <b>Home</b> -> <b>Projects</b> and click on <b>Create Project</b> button.<br>
 ![projects](https://user-images.githubusercontent.com/36239840/96359099-bdbef980-111f-11eb-93bd-33323dbe8d8f.JPG)<br><br>
 2- Enter the name of project, you can also add Display name and description if you would like, then click <b>Create</b>.<br>
 ![my project](https://user-images.githubusercontent.com/36239840/96359121-0bd3fd00-1120-11eb-80aa-cc72a3f48e8e.JPG)<br><br>
