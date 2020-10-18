@@ -27,6 +27,17 @@ First thing, we will need to create a new project because we will be perfoming s
 3- You will be lead to the Project Dashboard page, which looks like the following.
 ![project overview](https://user-images.githubusercontent.com/36239840/96359161-52c1f280-1120-11eb-9016-959df95b3c46.JPG)
 
+
+## User management
+As an Administrator, you can manage users, groups and roles in the cluster and projects. If you expand the <b>User Management</b> tab you will notice that the list you have includes subjects -which are users, groups, and service accounts-, roles and role bindings.<br>
+Roles are used to grant access for Users & Groups on cluster-wide or project-scope by policy rules, and they can be referenced by a RoleBinding. Users and groups can be bound to multiple roles at the same time.<br>
+A role binding grants the permissions defined in a role to a user or group (set of users). It holds a list of subjects (users, groups, or service accounts), and a reference to the role being granted. A RoleBinding grants permissions within a specific namespace whereas a ClusterRoleBinding grants that access cluster-wide.
+When you first go to <b>Role Bindings</b>, you will notice that there are three types of role bindings: Cluster-wide rolebinding, Namespace rolebinding and System rolebinding
+![role bindings](https://user-images.githubusercontent.com/36239840/96360209-02e92880-112c-11eb-986c-dfb48890f2a2.JPG)t
+
+
+
+## #################################################
 ## Workloads
 - Workloads, Networking, and Storage: View and manage resources like deployment, secrets, and the pods in your project.
 
@@ -42,9 +53,12 @@ First thing, we will need to create a new project because we will be perfoming s
 ## Compute
 - Compute: View and manage compute resources like nodes, machines, and autoscalers.
 
-## User management
-- User Management: View a list of users, create users and groups, and manage roles in the cluster and projects.
 
 ## Administration
 - Administration: View settings related to cluster administration, like details about the cluster, namespaces, cluster updates, quotas, and Custom Resource Definitions (CRDs).
 
+
+## Resources
+- <a href="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#:~:text=A%20role%20binding%20grants%20the,user%20or%20set%20of%20users.&text=A%20RoleBinding%20grants%20permissions%20within,Role%20in%20the%20same%20namespace.">Kubernetes Documentation</a>
+- <a href="https://docs.openshift.com/container-platform/3.9/admin_guide/manage_users.html">Managing Users on OpenShift</a>
+- <a href="https://docs.openshift.com/container-platform/3.9/admin_guide/manage_rbac.html">Managing RBAC</a>
