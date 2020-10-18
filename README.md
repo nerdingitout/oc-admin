@@ -18,6 +18,15 @@ In this tutorial, we will focus on the rest of features & capabilities of the Ad
 - OpenShift 4 Cluster on IBM Cloud:
   - URL: <will be provided soon>
   - key: <will be provided soon>
+## Step 1: Create Project
+First thing, we will need to create a new project because we will be perfoming some administration tasks on a project level as well.<br>
+1- Go to Projects tab under the Home section and click on 'Create Project' button.<br>
+![projects](https://user-images.githubusercontent.com/36239840/96359099-bdbef980-111f-11eb-93bd-33323dbe8d8f.JPG)<br>
+2- Enter the name of project, you can also add Display name and description if you would like, then click create.<br>
+![my project](https://user-images.githubusercontent.com/36239840/96359121-0bd3fd00-1120-11eb-80aa-cc72a3f48e8e.JPG)<br>
+3- You will be lead to the Project Dashboard page, which looks like the following.
+![project overview](https://user-images.githubusercontent.com/36239840/96359161-52c1f280-1120-11eb-9016-959df95b3c46.JPG)
+
 ## Workloads
 - Workloads, Networking, and Storage: View and manage resources like deployment, secrets, and the pods in your project.
 
