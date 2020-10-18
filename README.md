@@ -18,7 +18,7 @@ In this tutorial, we will focus on the rest of features & capabilities of the Ad
 - OpenShift 4 Cluster on IBM Cloud:
   - URL: <will be provided soon>
   - key: <will be provided soon>
-## Step 1: Create Project
+## Create Project
 First thing, we will need to create a new project because we will be perfoming some administration tasks on a project level as well.<br><br>
 1- Go to <b>Home</b> -> <b>Projects</b> and click on <b>Create Project</b> button.<br>
 ![projects](https://user-images.githubusercontent.com/36239840/96359099-bdbef980-111f-11eb-93bd-33323dbe8d8f.JPG)<br><br>
@@ -30,10 +30,18 @@ First thing, we will need to create a new project because we will be perfoming s
 
 ## User management
 As an Administrator, you can manage users, groups and roles in the cluster and projects. If you expand the <b>User Management</b> tab you will notice that the list you have includes subjects -which are users, groups, and service accounts-, roles and role bindings.<br>
-Roles are used to grant access for Users & Groups on cluster-wide or project-scope by policy rules, and they can be referenced by a RoleBinding. Users and groups can be bound to multiple roles at the same time.<br>
-A role binding grants the permissions defined in a role to a user or group (set of users). It holds a list of subjects (users, groups, or service accounts), and a reference to the role being granted. A RoleBinding grants permissions within a specific namespace whereas a ClusterRoleBinding grants that access cluster-wide.
-When you first go to <b>Role Bindings</b>, you will notice that there are three types of role bindings: Cluster-wide rolebinding, Namespace rolebinding and System rolebinding
-![role bindings](https://user-images.githubusercontent.com/36239840/96360209-02e92880-112c-11eb-986c-dfb48890f2a2.JPG)t
+- Roles are used to grant access for Users & Groups on cluster-wide or project-scope by policy rules, and they can be referenced by a RoleBinding. Users and groups can be bound to multiple roles at the same time.<br>
+- A role binding grants the permissions defined in a role to a user or group (set of users). It holds a list of subjects (users, groups, or service accounts), and a reference to the role being granted. A RoleBinding grants permissions within a specific namespace whereas a ClusterRoleBinding grants that access cluster-wide.<br>
+When you first go to <b>Role Bindings</b>, you will notice that there are three types of role bindings: Cluster-wide rolebinding, Namespace rolebinding and System rolebinding.<br>
+#### Step 1: Create a role.
+We will be creating the role <b>project-manager</b> and this role gives access to read the pods in the project <b>my-first-project</b>.<br>
+We will be using one of the sample YAML templates that can be found to the right under "Samples", click on 'Try it' under 'Allow reading the resource in API group' and then change the name of the role from 'read-pods-within-ns' to 'project-manager'.
+![role create](https://user-images.githubusercontent.com/36239840/96361525-83f9ed00-1137-11eb-93b7-d00c11f18bd0.JPG)
+<br>
+Once created, you will be redirected to the role overview, Click on <b>Role Bindings</b> and click on <b>Create Binding</b>.
+![role overview](https://user-images.githubusercontent.com/36239840/96361662-aa6c5800-1138-11eb-9777-cb91b2d80705.JPG)
+
+![role bindings](https://user-images.githubusercontent.com/36239840/96360209-02e92880-112c-11eb-986c-dfb48890f2a2.JPG)
 
 
 
