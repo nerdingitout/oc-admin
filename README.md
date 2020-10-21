@@ -4,6 +4,7 @@ This GitHub repository is an introduction to Red Hat OpenShift Administration. I
 - [Description](##Description)
 - [Prerequisites](##Prerequisites)
 - [User management](https://github.com/nerdingitout/oc-admin/blob/master/user-manage.md)
+- [Limiting Resources](https://github.com/nerdingitout/oc-admin/blob/master/resources.md)
 - [Resources](##Resources)
 ## Description
 There are mainly two perspectives on the web console: Administrator and Developer. You can also have different accounts with different permissions that are managed by the Administrator using cluster role binding or project role binding (we might bring it up later in the tutorial). <br>
