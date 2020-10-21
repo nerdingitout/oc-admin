@@ -31,6 +31,8 @@ First thing, we will need to create a new project because we will be perfoming s
 ![my project](https://user-images.githubusercontent.com/36239840/96359121-0bd3fd00-1120-11eb-80aa-cc72a3f48e8e.JPG)<br><br>
 3- You will be lead to the Project Dashboard page, which looks like the following.
 ![project overview](https://user-images.githubusercontent.com/36239840/96359161-52c1f280-1120-11eb-9016-959df95b3c46.JPG)
+  
+<br>### Next Step: [User management](https://github.com/nerdingitout/oc-admin/blob/master/user-manage.md)
 
 
 <!--- Workloads
