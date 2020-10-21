@@ -14,3 +14,31 @@ Once created, you will be redirected to <b>project-quota</b> overview page, you 
 n this section, we will set limits to resources on a pod level.<br>
 Go to <b>Administration → Limit Ranges</b>, click <b>Create Limit Range</b>, you can specify the default memory and CPU container limits and requests, for now, you can just go with the default values.
 ![limit range](https://user-images.githubusercontent.com/36239840/96687148-8a36d600-1390-11eb-8449-eb54ffb86f7a.JPG)
+
+### Consume Resources
+After specifying the Resource Quotas & Limit Ranges, we are going to create a simple hello world pod to see the changes in Resource Quota in the end.<br>
+Go to <b>Workloads → Pods</b>, then Create Pod, we will be using the example YAML definition that's provided in the editor, but we will need to specify the resources requests and limits as follows, you can set them to the following then click Create:<br>
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example
+  labels:
+    app: hello-openshift
+  namespace: my-first-project
+spec:
+  containers:
+    - name: hello-openshift
+      image: openshift/hello-openshift
+      ports:
+        - containerPort: 8080
+resources:
+            requests:
+              memory: "128Mi"
+              cpu: "125m"
+            limits:
+              memory: "256Mi"
+              cpu: "125m"
+```
+Once you are done, you will notice that the pod is in a running state. Go to <b>Administration → Resource Quotas</b> and you will notice the changes in the Resource Quota Overview.<br>
+![resource quota update](https://user-images.githubusercontent.com/36239840/96719258-38a34100-13ba-11eb-9a3c-f5e1ebf56ef9.JPG)
