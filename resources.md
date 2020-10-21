@@ -5,7 +5,7 @@ The following sections help you understand how to manage your resource quota and
 
 ### Resource Quotas
 In this section, we will set limits to resources on the project level.</br>
-Go to <b>Administration → Resource Quotas</b>, then click <b>Create Resource Quota</b>. You will be redirected to <b>Create Resource Quota</b> page.<br>
+Go to <b>Administration → Resource Quotas</b>, then click <b>Create Resource Quota</b>. You will be redirected to <b>Create Resource Quota</b> page.
 ![resource quotas](https://user-images.githubusercontent.com/36239840/96685579-5f4b8280-138e-11eb-8f45-1559bc03f5f6.JPG)
 Once created, you will be redirected to <b>project-quota</b> overview page, you will notice that there aren't any consumed resources, and that's because we haven't built or deployed applications on the project yet.<br>
 ![quota overview](https://user-images.githubusercontent.com/36239840/96686968-4d6adf00-1390-11eb-82be-438a340ecdce.JPG)
