@@ -34,4 +34,4 @@ If you click on it and go to the YAML file, you can find its specifications and 
 You can also go to project-management-group and will find that the new RoleBinding has been successfully added to the group.<br>
 ![pm rb](https://user-images.githubusercontent.com/36239840/96420790-fc7baf00-1206-11eb-912d-9d834306d885.JPG)<br>
 
-## Next Step: Limiting Resources
+## Next Step: <a href="https://github.com/nerdingitout/oc-admin/blob/master/resources.md">Limiting Resources</a>
